@@ -192,23 +192,18 @@ header {
 
 /* Contact Icons Styling */
 .contact-icons {
-    margin-top: none; 
-    text-align: center; 
+    display: flex;
+    gap: 15px; /* Space between icons */
 }
 
 .contact-icons a {
-    color: #333; 
-    font-size: 24px; 
-    margin: 0 10px; 
-    text-decoration: none; 
+    color: #333; /* Default color for icons */
+    font-size: 24px; /* Icon size */
+    transition: color 0.3s; /* Smooth transition for hover effect */
 }
 
 .contact-icons a:hover {
-    color: #f0a500; 
-}
-
-.contact-icons i {
-    vertical-align: middle; 
+    color: #f0a500; /* Hover color */
 }
 
 /* About Section Styling */
@@ -282,36 +277,36 @@ header {
 /* Footer Section Styling */
 #footer {
     padding: 20px;
-    background-color: #333; 
-    color: #fff; 
-    text-align: center; 
+    background-color: #333; /* Dark background for contrast */
+    color: #fff; /* White text color */
+    text-align: center; /* Center align text */
 }
 
 .footer-content p {
-    margin: 10px 0; 
-    font-size: 16px; 
+    margin: 10px 0; /* Margin between lines */
+    font-size: 16px; /* Font size for readability */
 }
 
 .footer-content a {
-    color: #f0a500; 
-    text-decoration: none; 
+    color: #f0a500; /* Color for links */
+    text-decoration: none; /* Remove underline from links */
 }
 
 .footer-content a:hover {
-    text-decoration: underline; /
+    text-decoration: underline; /* Underline on hover */
 }
 
 .social-media {
-    margin-top: 10px; 
+    margin-top: 10px; /* Space above social media icons */
 }
 
 .social-media a {
-    color: #fff; 
-    font-size: 24px; 
-    margin: 0 10px; 
-    text-decoration: none; 
+    color: #fff; /* White color for icons */
+    font-size: 24px; /* Size of the icons */
+    margin: 0 10px; /* Space between icons */
+    text-decoration: none; /* Remove underline from links */
 }
 
 .social-media a:hover {
-    color: #f0a500;
+    color: #f0a500; /* Change icon color on hover */
 }
